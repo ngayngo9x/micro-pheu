@@ -1,0 +1,10 @@
+package com.pheu.micro.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloClientController {
+
+	
+	
+}

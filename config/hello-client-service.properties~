@@ -1,0 +1,4 @@
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+turbine.aggregator.clusterConfig=hello-client-service
+turbine.appConfig=hello-client-service
+

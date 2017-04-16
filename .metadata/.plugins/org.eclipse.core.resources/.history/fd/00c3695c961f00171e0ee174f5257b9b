@@ -1,0 +1,5 @@
+package com.pheu.micro.controller;
+
+public class HelloController {
+
+}

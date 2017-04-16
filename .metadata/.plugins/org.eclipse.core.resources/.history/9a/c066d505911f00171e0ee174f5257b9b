@@ -1,0 +1,23 @@
+package com.pheu.micro.controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloController {
+
+	@Value("${hello.name}")
+	private String nameDefault; 
+	
+	@RequestMapping(value = "/hello")
+	public String greeting() {
+		return "Hello " + nameDefault;
+	}
+	
+	@RequestMapping(value = "/")
+	public String greeting2() {
+		return "Hello " + nameDefault;
+	}
+	
+}
